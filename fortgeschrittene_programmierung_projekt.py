@@ -67,7 +67,7 @@ def user_map_paths(user_name, map_name):
     return make_scatter_by_user_map(data, user_name, map_name)
 
 
-# average map
+# average user
 @app.callback(
     Output(component_id="user_average", component_property="figure"),
     Input(component_id='user-dropdown', component_property='value')
